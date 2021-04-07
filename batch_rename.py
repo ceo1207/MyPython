@@ -6,6 +6,11 @@
 
 常用函数：
 os.listdir os.rename os.path.join
+
+os.makedirs 创建目录
+os.path.exists 是否存在
+os.path.expanduser("~") 获得当前用户目录
+
 argparser 注意命令行字符串不需要使用 ''
 """
 import os
