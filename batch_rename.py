@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 # Author: Kayi
 # create time: 2021/4/7
+'''
+功能：批处理 修改目录下文件名
+常用函数： os.listdir os.rename os.path.join
+'''
 import os
-
 def batch_rename(args):
     work_dir = args.work_dir
     old_ext = args.old_extension
